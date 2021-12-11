@@ -1,4 +1,8 @@
 class Product < ApplicationRecord
-  enum status: [:active, :inactive]
   has_many :product_quantities
+  
+  enum status: [:active, :inactive]
+
+  mount_uploader :photo, PhotoUploader
+
 end
