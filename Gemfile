@@ -27,6 +27,10 @@ gem 'cancancan'
 gem 'carrierwave'
 gem 'rails_admin'
 gem 'rails_admin_rollincode', git: 'https://github.com/eltonsantos/rails_admin_theme'
+# Gem para gerar os pdfs
+gem 'prawn-rails'
+# Gem para gerar os gráficos
+gem 'gruff'
 # gem 'rails_admin_rollincode', '~> 1.0'
 
 # Use Active Storage variant
